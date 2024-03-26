@@ -1,0 +1,25 @@
+getEmployees():
+
+Metode HTTP: GET
+URL: "https://uxlg6ox54h.execute-api.us-east-2.amazonaws.com/dev/products"
+Ini adalah URL dasar untuk mengambil daftar produk dari API.
+createProduct(product):
+
+Metode HTTP: POST
+URL: "https://uxlg6ox54h.execute-api.us-east-2.amazonaws.com/dev/products"
+Ini adalah URL untuk membuat produk baru di API.
+getEmployeeById(productId):
+
+Metode HTTP: GET
+URL: "https://uxlg6ox54h.execute-api.us-east-2.amazonaws.com/dev/products/{productId}"
+Ini adalah URL untuk mengambil detail produk berdasarkan ID dari API.
+updateProduct(product, productId):
+
+Metode HTTP: PUT
+URL: "https://uxlg6ox54h.execute-api.us-east-2.amazonaws.com/dev/products/{productId}"
+Ini adalah URL untuk memperbarui produk yang sudah ada di API berdasarkan ID.
+deleteProduct(productId):
+
+Metode HTTP: DELETE
+URL: "https://uxlg6ox54h.execute-api.us-east-2.amazonaws.com/dev/products/{productId}"
+Ini adalah URL untuk menghapus produk berdasarkan ID dari API.
